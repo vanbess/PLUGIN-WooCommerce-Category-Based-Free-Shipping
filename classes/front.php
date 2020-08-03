@@ -9,9 +9,9 @@ class CBFS_Front
     /**
      * Constructor
      */
-    public static function __construct()
+    public function __construct()
     {
     }
 }
 
-CBFS_Front::__construct();
+new CBFS_Front;
