@@ -31,6 +31,7 @@ function cbfs_init()
     pll_register_string('cbfs_plugin', 'Offer free shipping for this category');
     pll_register_string('cbfs_plugin', 'Check this box to offer free shipping for this product category');
     pll_register_string('cbfs_plugin', 'This product comes with free shipping!');
+    pll_register_string('cbfs_plugin', 'Free Shipping');
 
     // classes
     require_once CBFS_PATH.'classes/back.php';
