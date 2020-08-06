@@ -28,10 +28,13 @@ add_action('plugins_loaded', 'cbfs_init');
 function cbfs_init()
 {
     // register polylang strings
-    pll_register_string('cbfs_plugin', 'Offer free shipping for this category');
-    pll_register_string('cbfs_plugin', 'Check this box to offer free shipping for this product category');
+    pll_register_string('cbfs_plugin', 'Offer free shipping for this category?');
+    pll_register_string('cbfs_plugin', 'Specify whether or not free shipping should be offered on products in this category.');
     pll_register_string('cbfs_plugin', 'This product comes with free shipping!');
     pll_register_string('cbfs_plugin', 'Free Shipping');
+    pll_register_string('cbfs_plugin', 'Yes');
+    pll_register_string('cbfs_plugin', 'No');
+    pll_register_string('cbfs_plugin', 'Please select...');
 
     // classes
     require_once CBFS_PATH.'classes/back.php';
