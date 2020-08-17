@@ -33,9 +33,8 @@ class CBFS_Back
     public static function sbfs_add_cat_form_fields()
     { ?>
         <tr class="form-field form-required">
-            <th scope="row"><label for="name"><?php pll_e('Free Shipping'); ?></label></th>
+            <th scope="row"><label for="name"><?php pll_e('Offer free shipping'); ?></label></th>
             <td>
-                <label for="sbfs_free_shipping"><?php pll_e('Offer free shipping for this category?'); ?></label>
                 <select id="sbfs_free_shipping" name="sbfs_free_shipping" value="yes">
                     <option value="">Please select...</option>
                     <option value="yes"><?php pll_e('Yes'); ?></option>
@@ -61,9 +60,8 @@ class CBFS_Back
 
     ?>
         <tr class="form-field form-required">
-            <th scope="row"><label for="name"><?php pll_e('Free Shipping'); ?></label></th>
+            <th scope="row"><label for="name"><?php pll_e('Offer free shipping'); ?></label></th>
             <td>
-                <label for="sbfs_free_shipping"><?php pll_e('Offer free shipping for this category?'); ?></label>
                 <select id="sbfs_free_shipping" name="sbfs_free_shipping" curr_val="<?php print $free_shipping_val; ?>">
                     <option value="">Please select...</option>
                     <option value="yes"><?php pll_e('Yes'); ?></option>
